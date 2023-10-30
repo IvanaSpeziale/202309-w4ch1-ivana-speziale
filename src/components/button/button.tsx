@@ -1,4 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'; /* 
+import { dataPointingGentlemen } from '../data/data'; */
+
+/* type props{
+  dataRepo: dataPointingGentlemen;
+};  */
 
 export function Button({ dataPointingGentlemen }) {
   console.log('Render Counter');
