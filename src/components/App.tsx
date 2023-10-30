@@ -1,14 +1,15 @@
 import './App.css';
-import { Footer } from './footer/footer';
-import { Header } from './header/header';
+import { Button } from './button/button';
+import { dataPointingGentlemen } from './data/data';
+import { Gentleman } from './gentleman/gentleman';
+import { Info } from './info/info';
 
 export function App() {
-  const title = 'Learning React';
   return (
-    <div>
-      <Header title={title}></Header>
-      <p>Hola mundo</p>
-      <Footer></Footer>
+    <div className="container">
+      <Info></Info>
+      <Button></Button>
+      <Gentleman cards={dataPointingGentlemen}></Gentleman>
     </div>
   );
 }
