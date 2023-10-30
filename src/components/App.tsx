@@ -8,7 +8,7 @@ export function App() {
   return (
     <div className="container">
       <Info></Info>
-      <Button></Button>
+      <Button dataPointingGentlemen={dataPointingGentlemen} />
       <Gentleman cards={dataPointingGentlemen}></Gentleman>
     </div>
   );
