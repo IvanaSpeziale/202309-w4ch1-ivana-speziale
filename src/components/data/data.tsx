@@ -8,7 +8,7 @@ export type GentlemanType = {
   alternativeText: string;
   selected: boolean;
 };
-export const dataPointingGentlemen = [
+export const dataPointingGentlemen: GentlemanType[] = [
   {
     id: 1,
     name: 'Bertin Osborne',

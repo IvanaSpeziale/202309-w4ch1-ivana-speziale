@@ -13,7 +13,7 @@ export function Gentleman({ cards }: Props) {
             <div className="gentleman__avatar-container">
               <img
                 className="gentleman__avatar"
-                src={'./src/images/' + card.picture}
+                src={'/src/images/' + card.picture}
                 alt="The Fary pointing at you"
               />
               <span className="gentleman__initial">F</span>
